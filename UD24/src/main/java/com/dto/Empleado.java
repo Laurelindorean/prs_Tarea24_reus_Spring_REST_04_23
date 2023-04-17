@@ -61,7 +61,7 @@ public class Empleado {
 
 		static Double salarioPorTrabajo(String trabajo) {
 			boolean found = false;
-			Double sueldo = 0.0;
+			double sueldo = 0.0;
 			List<Trabajo> lista = Arrays.asList(Trabajo.values());
 			Iterator<Trabajo> it = lista.iterator();
 
