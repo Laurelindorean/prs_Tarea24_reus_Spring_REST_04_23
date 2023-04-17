@@ -3,6 +3,8 @@
  */
 package com.dto;
 
+
+
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -58,7 +60,6 @@ public class Empleado {
 		public double getSalario() {
 			return this.salario;
 		}
-
 		static Double salarioPorTrabajo(String trabajo) {
 			boolean found = false;
 			double sueldo = 0.0;
